@@ -22,7 +22,7 @@
 | Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | color | Array\(String\) | √ |  |  | The default color configuration list for the data item,the array element is a hexadecimal representation of the color |
-| [grid](#grid) | Array\(Object\) | √ |  |  | Drawing grid within a coortnate system |
+| [grid](#grid) | Array\(Object\) | √ |  |  | Drawing grid within a Cartesian coortnate system |
 | [tooltip](#tooltip) | Object | √ |  |  | Message box with interactive information when the mouse is suspended |
 | [xAxis](#xaxis) | Array\(Object\) | √ |  |  | The horizontal axis array of Cartesian coordinate system |
 | yAxis | Array\(Object\) | √ |  |  | The vertical axis array of Cartesian coordinate system |
@@ -55,15 +55,15 @@
 
 | Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| grid\[0\].top | Number | √ | 10 |  | The top horizontal axis array of Cartesian coordinate system, the numerical unit is px |
-| grid\[0\].right | Number | √ | 50 |  | The right vertical axis array of Cartesian coortinate system, the numerical unit is px |
-| grid\[0\].bottom | Number | √ | 20 |  | 直角坐标系内绘图网格右下角纵坐标，数值单位px |
-| grid\[0\].left | Number | √ | 50 |  | 直角坐标系内绘图网格右下角横坐标，数值单位px |
-| grid\[0\].bgStyle | Object | √ |  |  | 直角坐标系内平面样式 |
-| grid\[0\].bgStyle.normal | Object | √ |  |  | **未选中**状态的平面样式 |
-| grid\[0\].bgStyle.normal.fill | String | √ | rgba\(0,0,0,0\) |  | **未选中**状态的平面填充颜色 |
-| grid\[0\].bgStyle.emphasis | Object | √ |  |  | **选中**状态的平面样式 |
-| grid\[0\].bgStyle.emphasis.fill | String | √ | rgba\(0,0,0,0\) |  | **选中**状态的平面填充颜色 |
+| grid\[0\].top | Number | √ | 10 |  | The abscissa of the upper left corner in the drawing grid, the numerical unit is px |
+| grid\[0\].right | Number | √ | 50 |  | The ordinate of the upper left corner in the drawing grid, the numerical unit is px |
+| grid\[0\].bottom | Number | √ | 20 |  | The ordinate of bottom right corner in the drawing grid, the numerical unit is px |
+| grid\[0\].left | Number | √ | 50 |  | The abscissa of bottom right corner in the drawing grid, the numerical unit is px |
+| grid\[0\].bgStyle | Object | √ |  |  | The background style of the Cartesian coordinate system |
+| grid\[0\].bgStyle.normal | Object | √ |  |  | The background style of the **unselected state** |
+| grid\[0\].bgStyle.normal.fill | String | √ | rgba\(0,0,0,0\) |  | The background color of the **unselected state** |
+| grid\[0\].bgStyle.emphasis | Object | √ |  |  | The background color of the **selected state** |
+| grid\[0\].bgStyle.emphasis.fill | String | √ | rgba\(0,0,0,0\) |  | The background color of the **selected state** |
 
 * ### tooltip
 
@@ -175,15 +175,15 @@
 
 **参数字段说明**
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
+| Configuration item | Type | Required | Default | Optional parameter | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | xAxis\[0\].type | String | √ | linear | category、linear |  |
-| xAxis\[0\].inverse | Boolean | √ | false |  | 是否沿水平方向反转图表 |
-| xAxis\[0\].axisLine | Object | √ |  |  | 水平坐标轴线 |
-| xAxis\[0\].axisLine.show | Boolean | √ | false |  | 是否显示水平坐标轴线。 |
-| xAxis\[0\].axisLine.lineStyle | Object | √ |  |  | 水平坐标轴线样式 |
-| xAxis\[0\].axisLine.lineStyle.stroke | String | √ |  |  | 水平坐标轴线颜色 |
-| xAxis\[0\].axisLine.lineStyle.stroke-width | String | √ | 2 |  | 水平坐标轴线宽度 |
+| xAxis\[0\].inverse | Boolean | √ | false |  | Whether or not to reverse the chart in the horizontal direction |
+| xAxis\[0\].axisLine | Object | √ |  |  | Horizontal coordinate axis |
+| xAxis\[0\].axisLine.show | Boolean | √ | false |  | Whether or not to show the horizontal coordinate axis |
+| xAxis\[0\].axisLine.lineStyle | Object | √ |  |  | The style of the horizontal coordinate axis |
+| xAxis\[0\].axisLine.lineStyle.stroke | String | √ |  |  | The color of the horizontal coordinate axis |
+| xAxis\[0\].axisLine.lineStyle.stroke-width | String | √ | 2 |  | The width of the horizontal coordinate axis |
 | xAxis\[0\].axisLabel | Object | √ |  |  | 水平坐标轴文本标签 |
 | xAxis\[0\].axisLabel.show | Boolean | √ | false |  | 是否显示水平坐标轴文本标签 |
 | xAxis\[0\].axisLabel.interval | String \| Number | √ | auto |  | 水平坐标轴文本标签间隔。auto-自动隐藏显示不下的；0-全部显示 |
