@@ -23,7 +23,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | color | Array\(String\) | √ |  |  | The default color configuration list for the data item,the array element is a hexadecimal representation of the color |
 | [grid](#grid) | Array\(Object\) | √ |  |  | Cartesian grid within a coortnate system |
-| [tooltip](#tooltip) | Object | √ |  |  | Message box, interactive information when the mouse is suspended |
+| [tooltip](#tooltip) | Object | √ |  |  | Message box with interactive information when the mouse is suspended |
 | [xAxis](#xaxis) | Array\(Object\) | √ |  |  | The horizontal axis array of Cartesian coordinate system |
 | yAxis | Array\(Object\) | √ |  |  | The vertical axis array of Cartesian coordinate system |
 | series | Array\(Object\) | √ |  |  | Detail configuration of this chart |
