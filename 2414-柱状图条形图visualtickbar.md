@@ -21,7 +21,7 @@
 
 | Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| color | Array\(String\) | √ |  |  | 数据项的默认颜色配置列表，数组元素为十六进制表示的颜色 |
+| color | Array\(String\) | √ |  |  | The default color configuration list for the data item,the array element is a hexadecimal representation of the color |
 | [grid](#grid) | Array\(Object\) | √ |  |  | 直角坐标系内的绘图网格 |
 | [tooltip](#tooltip) | Object | √ |  |  | 提示框，鼠标悬浮交互式时的信息提示 |
 | [xAxis](#xaxis) | Array\(Object\) | √ |  |  | 直角坐标系中横轴数组 |
