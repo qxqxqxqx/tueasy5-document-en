@@ -179,14 +179,14 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | xAxis\[0\].type | String | √ | linear | category、linear |  |
 | xAxis\[0\].inverse | Boolean | √ | false |  | Whether or not to reverse the chart in the horizontal direction |
-| xAxis\[0\].axisLine | Object | √ |  |  | Horizontal coordinate axis |
-| xAxis\[0\].axisLine.show | Boolean | √ | false |  | Whether or not to show the horizontal coordinate axis |
-| xAxis\[0\].axisLine.lineStyle | Object | √ |  |  | The style of the horizontal coordinate axis |
-| xAxis\[0\].axisLine.lineStyle.stroke | String | √ |  |  | The color of the horizontal coordinate axis |
-| xAxis\[0\].axisLine.lineStyle.stroke-width | String | √ | 2 |  | The width of the horizontal coordinate axis |
-| xAxis\[0\].axisLabel | Object | √ |  |  | 水平坐标轴文本标签 |
-| xAxis\[0\].axisLabel.show | Boolean | √ | false |  | 是否显示水平坐标轴文本标签 |
-| xAxis\[0\].axisLabel.interval | String \| Number | √ | auto |  | 水平坐标轴文本标签间隔。auto-自动隐藏显示不下的；0-全部显示 |
+| xAxis\[0\].axisLine | Object | √ |  |  | Horizontal axis |
+| xAxis\[0\].axisLine.show | Boolean | √ | false |  | Whether or not to show the horizontal axis |
+| xAxis\[0\].axisLine.lineStyle | Object | √ |  |  | The style of the horizontal axis |
+| xAxis\[0\].axisLine.lineStyle.stroke | String | √ |  |  | The color of the horizontal axis |
+| xAxis\[0\].axisLine.lineStyle.stroke-width | String | √ | 2 |  | The width of the horizontal axis |
+| xAxis\[0\].axisLabel | Object | √ |  |  | The text label of the horizontal axis |
+| xAxis\[0\].axisLabel.show | Boolean | √ | false |  | Whether or not to show the text label of the horizontal axis |
+| xAxis\[0\].axisLabel.interval | String \| Number | √ | auto |  | The gap of the text labels. 'auto' means automatically hide the overflow ones; '0' means show all |
 | xAxis\[0\].axisLabel.inside | Boolean | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.rotate | Number | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.margin | Number | -- | -- | -- | -- |
