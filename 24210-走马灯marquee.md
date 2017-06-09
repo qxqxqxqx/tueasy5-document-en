@@ -55,22 +55,22 @@
 
 ### 参数字段说明
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
+| Configuration item | Type  | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| type | String | √ | Marquee |  | 控件类型——Marquee跑马灯，不可修改 |
-| series | Array\(Object\) | √ |  |  | 跑马灯控件中的数据项 |
-| series\[0\].name | String | √ |  |  | 数据文本内容，可以重复 |
-| series\[0\].value | String | √ |  |  | 数据唯一标识，不可重复 |
-| categoryGap | String | √ | 20px |  | 数据条之间的间距 |
-| itemGap | Sting | √ | 10px |  | 一条数据的数据项之间的间距 |
-| speedTime | Number | √ | 20 |  | 速率-时间，单位毫秒 |
-| speedDistance | String | √ | 2px |  | 速率-距离 |
-| itemStyle | Object | √ |  |  | 跑马灯控件的样式 |
-| itemStyle.normal | Object | √ |  |  | 跑马灯控件的样式 |
-| itemStyle.normal.fontSize | String | √ | 20px | 支持CSS3中font-size的参数值 | 跑马灯控件的文本大小 |
-| itemStyle.normal.color | String | √ | \#c1c1c1 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 跑马灯控件的文本颜色 |
-| itemStyle.normal.background | String | √ | \#eff1f3 | 支持CSS3中background的所有参数值 | 跑马灯控件的背景样式 |
-| itemStyle.normal.paddingLeft | String | √ | 5px |  | 跑马灯控件的左内边距 |
+| type | String | √ | Marquee |  | The type of the component is marquee |
+| series | Array\(Object\) | √ |  |  | The data of the component |
+| series\[0\].name | String | √ |  |  | The unique identification of the data, can not be repeated |
+| series\[0\].value | String | √ |  |  | The text value of the data, can be repeated |
+| categoryGap | String | √ | 20px |  | The gaps between the bars |
+| itemGap | Sting | √ | 10px |  | The gaps between the data items |
+| speedTime | Number | √ | 20 |  | The time speed unit is millisecond |
+| speedDistance | String | √ | 2px |  | The rate  |
+| itemStyle | Object | √ |  |  | The style of the component |
+| itemStyle.normal | Object | √ |  |  | The normal style of the component |
+| itemStyle.normal.fontSize | String | √ | 20px | font-size parameters is supported | The fontSize of the component |
+| itemStyle.normal.color | String | √ | \#c1c1c1 | The color parameters including Color Name、HEX、RGB、RGBA、HSL、HSLA、transparent are supported | The color of the component |
+| itemStyle.normal.background | String | √ | \#eff1f3 | all supported in css3 | The background style of the component |
+| itemStyle.normal.paddingLeft | String | √ | 5px |  | The paddingLeft of the component |
 
 > 注：
 >
