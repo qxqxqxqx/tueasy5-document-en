@@ -22,7 +22,7 @@
 | Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | color | Array\(String\) | √ |  |  | The default color configuration list for the data item,the array element is a hexadecimal representation of the color |
-| [grid](#grid) | Array\(Object\) | √ |  |  | Cartesian grid within a coortnate system |
+| [grid](#grid) | Array\(Object\) | √ |  |  | Drawing grid within a coortnate system |
 | [tooltip](#tooltip) | Object | √ |  |  | Message box with interactive information when the mouse is suspended |
 | [xAxis](#xaxis) | Array\(Object\) | √ |  |  | The horizontal axis array of Cartesian coordinate system |
 | yAxis | Array\(Object\) | √ |  |  | The vertical axis array of Cartesian coordinate system |
@@ -53,10 +53,10 @@
 
 **参数字段说明**
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
+| Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| grid\[0\].top | Number | √ | 10 |  | 直角坐标系内绘图网格左上角横坐标，数值单位px |
-| grid\[0\].right | Number | √ | 50 |  | 直角坐标系内绘图网格左上角纵坐标，数值单位px |
+| grid\[0\].top | Number | √ | 10 |  | The top horizontal axis array of Cartesian coordinate system, the numerical unit is px |
+| grid\[0\].right | Number | √ | 50 |  | The right vertical axis array of Cartesian coortinate system, the numerical unit is px |
 | grid\[0\].bottom | Number | √ | 20 |  | 直角坐标系内绘图网格右下角纵坐标，数值单位px |
 | grid\[0\].left | Number | √ | 50 |  | 直角坐标系内绘图网格右下角横坐标，数值单位px |
 | grid\[0\].bgStyle | Object | √ |  |  | 直角坐标系内平面样式 |
