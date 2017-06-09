@@ -55,7 +55,7 @@
 
 ### 参数字段说明
 
-| Configuration item | Type  | Required | Default | Optional parameters | Description |
+| Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | type | String | √ | Marquee |  | The type of the component is marquee |
 | series | Array\(Object\) | √ |  |  | The data of the component |
@@ -64,12 +64,12 @@
 | categoryGap | String | √ | 20px |  | The gaps between the bars |
 | itemGap | Sting | √ | 10px |  | The gaps between the data items |
 | speedTime | Number | √ | 20 |  | The time speed unit is millisecond |
-| speedDistance | String | √ | 2px |  | The rate  |
+| speedDistance | String | √ | 2px |  | The rate |
 | itemStyle | Object | √ |  |  | The style of the component |
 | itemStyle.normal | Object | √ |  |  | The normal style of the component |
 | itemStyle.normal.fontSize | String | √ | 20px | font-size parameters is supported | The fontSize of the component |
 | itemStyle.normal.color | String | √ | \#c1c1c1 | The color parameters including Color Name、HEX、RGB、RGBA、HSL、HSLA、transparent are supported | The color of the component |
-| itemStyle.normal.background | String | √ | \#eff1f3 | all supported in css3 | The background style of the component |
+| itemStyle.normal.background | String | √ | \#eff1f3 | all css3 parameters are supported | The background style of the component |
 | itemStyle.normal.paddingLeft | String | √ | 5px |  | The paddingLeft of the component |
 
 > 注：
