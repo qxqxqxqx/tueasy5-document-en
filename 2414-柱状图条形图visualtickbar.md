@@ -191,35 +191,35 @@
 | xAxis\[0\].axisLabel.rotate | Number | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.margin | Number | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.formatter | String \| Function | -- | -- | -- | -- |
-| xAxis\[0\].axisLabel.textStyle | Object | √ |  |  | 水平坐标轴文本标签中的文本样式 |
-| xAxis\[0\].axisLabel.textStyle.font-size | Number | √ | 12 |  | 水平坐标轴文本标签中的文本大小 |
-| xAxis\[0\].axisLabel.textStyle.font-style | String | √ | normal |  | 水平坐标轴文本标签中的文本样式 |
-| xAxis\[0\].axisLabel.textStyle.font-weight | String | √ | normal |  | 水平坐标轴文本标签中的文本粗细 |
-| xAxis\[0\].axisLabel.textStyle.font-family | String | √ | sans-serif |  | 水平坐标轴文本标签中的文本字体 |
-| xAxis\[0\].axisLabel.textStyle.fill | String | √ | \#fff |  | 水平坐标轴文本标签中的文本颜色 |
-| xAxis\[0\].axisTick | Object | √ |  |  | 水平坐标轴刻度线 |
-| xAxis\[0\].axisTick.show | Boolean | √ | false |  | 是否显示水平坐标轴刻度线 |
-| xAxis\[0\].axisTick.symbol | String | √ | line |  | 水平坐标轴刻度线符号 |
-| xAxis\[0\].axisTick.inside | Boolean | √ | false |  | 水平坐标轴刻度线是否位于坐标轴内侧 |
-| xAxis\[0\].axisTick.length | Number | √ | 10 |  | 水平坐标轴刻度线的高度 |
-| xAxis\[0\].axisTick.symbolStyle | Object | √ |  |  | 水平坐标轴刻度线符号样式 |
-| xAxis\[0\].axisTick.symbolStyle.stroke | String | √ | \#fff |  | 水平坐标轴刻度线符号颜色 |
-| xAxis\[0\].axisTick.symbolStyle.stroke-width | Number | √ | 1 |  | 水平坐标轴刻度线符号宽度 |
-| xAxis\[0\].splitLine | Object | √ |  |  | 水平坐标轴的分割区域 |
-| xAxis\[0\].splitLine.show | Boolean | √ | true |  | 是否显示水平坐标轴的分割区域线 |
-| xAxis\[0\].splitLine.lineStyle | Object | √ |  |  | 水平坐标轴的分割区域线样式 |
-| xAxis\[0\].splitLine.lineStyle.stroke | String | √ | \#0f0 |  | 水平坐标轴的分割区域线颜色 |
-| xAxis\[0\].splitLine.lineStyle.stroke-width | Number | √ | 1 |  | 水平坐标轴的分割区域线粗细 |
-| xAxis\[0\].splitLine.lineStyle.stroke-dasharray | Array\(Number\) | √ | \[1 0\] | 支持SVG stroke-dasharray属性的参数值 | 水平坐标轴的分割区域线类型 |
-| xAxis\[0\].position | String | √ | bottom | bottom、left、right、top | 水平坐标轴的位置 |
-| xAxis\[0\].min | Number | √ | 0 |  | 水平坐标轴的最小值 |
-| xAxis\[0\].max | Number | √ | 1500 |  | 水平坐标轴的最大值 |
-| xAxis\[0\].name | String | -- | -- | -- | 水平坐标轴的自定义名称 |
-| xAxis\[0\].nameLocation | String | -- | -- | center、end、start | 水平坐标轴的自定义名称位置 |
-| xAxis\[0\].nameGap | Number | -- | -- | -- | 水平坐标轴名称距离坐标轴的距离 |
-| xAxis\[0\].data | Array\(String\) |  |  |  | 水平坐标轴的离散数值 |
-| xAxis\[0\].boundaryGap | Number | -- | -- | -- | 水平坐标轴两端留白的大小 |
-| xAxis\[0\].splitNumber | Number | √ | 5 |  | 水平坐标轴分割的段数 |
+| xAxis\[0\].axisLabel.textStyle | Object | √ |  |  | The text style of the text label |
+| xAxis\[0\].axisLabel.textStyle.font-size | Number | √ | 12 |  | The fontsize of the text label |
+| xAxis\[0\].axisLabel.textStyle.font-style | String | √ | normal |  | The fontStyle of the text label |
+| xAxis\[0\].axisLabel.textStyle.font-weight | String | √ | normal |  | The fontWeight of the text label |
+| xAxis\[0\].axisLabel.textStyle.font-family | String | √ | sans-serif |  | The fontFamily of the text label |
+| xAxis\[0\].axisLabel.textStyle.fill | String | √ | \#fff |  | The text color of the text label |
+| xAxis\[0\].axisTick | Object | √ |  |  | The scale line of the horizontal axis |
+| xAxis\[0\].axisTick.show | Boolean | √ | false |  | Whether or not to show the scale line |
+| xAxis\[0\].axisTick.symbol | String | √ | line |  | The symbol of the scale line |
+| xAxis\[0\].axisTick.inside | Boolean | √ | false |  | Whether the scale line is inside of the horizontal axis or not |
+| xAxis\[0\].axisTick.length | Number | √ | 10 |  | The height of the scale line |
+| xAxis\[0\].axisTick.symbolStyle | Object | √ |  |  | The style of the scale line symbol |
+| xAxis\[0\].axisTick.symbolStyle.stroke | String | √ | \#fff |  | The color of the scale line symbol |
+| xAxis\[0\].axisTick.symbolStyle.stroke-width | Number | √ | 1 |  | The width of the scale line symbol |
+| xAxis\[0\].splitLine | Object | √ |  |  | The split line of the horizontal axis |
+| xAxis\[0\].splitLine.show | Boolean | √ | true |  | Whether or not to show the split line |
+| xAxis\[0\].splitLine.lineStyle | Object | √ |  |  | The style of the split line |
+| xAxis\[0\].splitLine.lineStyle.stroke | String | √ | \#0f0 |  | The color of the split line |
+| xAxis\[0\].splitLine.lineStyle.stroke-width | Number | √ | 1 |  | The width of the split line |
+| xAxis\[0\].splitLine.lineStyle.stroke-dasharray | Array\(Number\) | √ | \[1 0\] | SVG stroke-dasharray parameter supported | The type of the split line |
+| xAxis\[0\].position | String | √ | bottom | bottom、left、right、top | The position of the horizontal axis |
+| xAxis\[0\].min | Number | √ | 0 |  | The minimum value of the horizontal axis |
+| xAxis\[0\].max | Number | √ | 1500 |  | The maximum value of the horizontal axis |
+| xAxis\[0\].name | String | -- | -- | -- | The name of the horizontal axis |
+| xAxis\[0\].nameLocation | String | -- | -- | center、end、start | The position of the horizontal axis name |
+| xAxis\[0\].nameGap | Number | -- | -- | -- | The gap between the name and the horizontal axis |
+| xAxis\[0\].data | Array\(String\) |  |  |  | The discrete values of the horizontal value |
+| xAxis\[0\].boundaryGap | Number | -- | -- | -- | The gaps of both ends blank |
+| xAxis\[0\].splitNumber | Number | √ | 5 |  | Number of the horizontal divided |
 | xAxis\[0\].splitTicks | Array | -- | -- | -- | -- |
 | xAxis\[0\].splitArea | Object | -- | -- | -- | -- |
 | xAxis\[0\].splitArea.show | Boolean | -- | -- | -- |  |
