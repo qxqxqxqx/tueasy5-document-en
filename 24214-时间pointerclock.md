@@ -103,59 +103,59 @@
 
 ![](/assets/pointerClock01.png)
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
+| Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| clock | Object | √ |  |  | 钟表样式 |
-| clock.clockAxis | Object | √ |  |  | 钟表刻度辅助样式 |
-| clock.clockAxis.axisLine | Object | √ |  |  | 钟表刻度辅助圆线样式 |
-| clock.clockAxis.axisLine.show | Bool | √ | true |  | 是否显示钟表刻度辅助圆线 |
-| clock.clockAxis.axisLine.lineStyle | Object | √ |  |  | 钟表刻度辅助圆线样式 |
-| clock.clockAxis.axisLine.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表刻度辅助圆线颜色 |
-| clock.clockAxis.axisTick | Object | √ |  |  | 钟表的辅助刻度线样式 |
-| clock.clockAxis.axisTick.show | Bool | √ | true |  | 是否显示钟表的辅助刻度线 |
-| clock.clockAxis.axisTick.lineStyle | Object | √ |  |  | 钟表的辅助刻度线样式 |
-| clock.clockAxis.axisTick.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的辅助刻度线颜色 |
-| clock.clockAxis.axisText | Object | √ |  |  | 钟表的辅助数字盘样式 |
-| clock.clockAxis.axisText.textGap | String | √ | 5px |  | 钟表的辅助数字盘与钟表中间圆边框的间距 |
-| clock.clockAxis.axisText.textStyle | Object | √ |  |  | 钟表的辅助数字盘数字样式 |
-| clock.clockAxis.axisText.textStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的辅助数字盘数字颜色 |
-| clock.outerCircle | Object | √ |  |  | 钟表的外圆边框样式 |
-| clock.outerCircle.show | Bool | √ | true |  | 是否显示钟表的外圆边框 |
-| clock.outerCircle.lineStyle | Object | √ |  |  | 钟表的外圆边框样式 |
-| clock.outerCircle.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的外圆边框颜色 |
-| clock.middleCircle | Object | √ |  |  | 钟表的中间圆边框样式 |
-| clock.middleCircle.show | Bool | √ | true |  | 是否显示钟表的中间圆边框 |
-| clock.middleCircle.lineStyle | Object | √ |  |  | 钟表的中间圆边框样式 |
-| clock.middleCircle.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的中间圆边框颜色 |
-| clock.innerCircle | Object | √ |  |  | 钟表的内圆边框样式 |
-| clock.innerCircle.show | Bool | √ | true |  | 是否显示钟表的内圆边框 |
-| clock.innerCircle.lineStyle | Object | √ |  |  | 钟表的内圆边框样式 |
-| clock.innerCircle.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的内圆边框颜色 |
-| clock.hand | Object | √ |  |  | 钟表的指针样式 |
-| clock.hand.clockHourHand | Object | √ |  |  | 钟表的时针样式 |
-| clock.hand.clockHourHand.handStyle | Object | √ |  |  | 钟表时针的针柄样式 |
-| clock.hand.clockHourHand.handStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表时针的针柄填充颜色 |
-| clock.hand.clockHourHand.handStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表时针的针柄边框颜色 |
-| clock.hand.clockHourHand.lineStyle | Object | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表时针的其余边框颜色 |
-| clock.hand.clockMinuteHand | Object | √ |  |  | 钟表的分针样式 |
-| clock.hand.clockMinuteHand.handStyle | Object | √ |  |  | 钟表分针的针柄样式 |
-| clock.hand.clockMinuteHand.handStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表分针的针柄填充颜色 |
-| clock.hand.clockMinuteHand.handStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表分针的针柄边框颜色 |
-| clock.hand.clockMinuteHand.lineStyle | Object | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表分针的其余边框颜色 |
-| clock.hand.clockSecondHand | Object | √ |  |  | 钟表的秒针样式 |
-| clock.hand.clockSecondHand.handStyle | Object | √ |  |  | 钟表秒针的针柄样式 |
-| clock.hand.clockSecondHand.handStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表秒针的针柄填充颜色 |
-| clock.hand.clockSecondHand.lineStyle | Object | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表秒针的其余边框颜色 |
-| clock.aloneArc | Object | √ |  |  | 钟表的单独弧线装饰 |
-| clock.aloneArc.show | Bool | √ | true |  | 是否显示钟表的单独弧线 |
-| clock.aloneArc.lineStyle | Object | √ |  |  | 钟表的单独弧线样式 |
-| clock.aloneArc.lineStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的单独弧线填充颜色 |
-| clock.aloneArc.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的单独弧线边框颜色 |
-| clock.symmetryArc | Object | √ |  |  | 钟表的对称弧线装饰 |
-| clock.symmetryArc.show | Bool | √ | true |  | 是否显示钟表的对称弧线 |
-| clock.symmetryArc.lineStyle | Object | √ |  |  | 钟表的对称弧线样式 |
-| clock.symmetryArc.lineStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的对称弧线填充颜色 |
-| clock.symmetryArc.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 钟表的对称弧线边框颜色 |
+| clock | Object | √ |  |  | The style of the clock |
+| clock.clockAxis | Object | √ |  |  | The style of the scale line |
+| clock.clockAxis.axisLine | Object | √ |  |  | The style of the circle line |
+| clock.clockAxis.axisLine.show | Bool | √ | true |  | Whether or not to show the circle line |
+| clock.clockAxis.axisLine.lineStyle | Object | √ |  |  | The style of the circle line |
+| clock.clockAxis.axisLine.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The color of the circle line |
+| clock.clockAxis.axisTick | Object | √ |  |  | The style of the scale line |
+| clock.clockAxis.axisTick.show | Bool | √ | true |  | Whether or not to show the scale line |
+| clock.clockAxis.axisTick.lineStyle | Object | √ |  |  | The style of the scale line |
+| clock.clockAxis.axisTick.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The  color of the scale line |
+| clock.clockAxis.axisText | Object | √ |  |  | The style of the number |
+| clock.clockAxis.axisText.textGap | String | √ | 5px |  | The gap between the number and the circle line |
+| clock.clockAxis.axisText.textStyle | Object | √ |  |  | The text style of the number |
+| clock.clockAxis.axisText.textStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The color of the number |
+| clock.outerCircle | Object | √ |  |  | The style of the outer circle |
+| clock.outerCircle.show | Bool | √ | true |  | Whether or not to show the outer circle |
+| clock.outerCircle.lineStyle | Object | √ |  |  | The style of the outer circle line |
+| clock.outerCircle.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The color of the outer circle |
+| clock.middleCircle | Object | √ |  |  | The style of the middle circle |
+| clock.middleCircle.show | Bool | √ | true |  | Whether or not to show the middle circle |
+| clock.middleCircle.lineStyle | Object | √ |  |  | The style of the middle circle line |
+| clock.middleCircle.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The color of the middle circle |
+| clock.innerCircle | Object | √ |  |  | The style of the inner circle |
+| clock.innerCircle.show | Bool | √ | true |  | Whether or not to show the inner circle |
+| clock.innerCircle.lineStyle | Object | √ |  |  | The style of the inner circle line |
+| clock.innerCircle.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The color of the inner circle |
+| clock.hand | Object | √ |  |  | The style of the hand |
+| clock.hand.clockHourHand | Object | √ |  |  | The color of the hour hand |
+| clock.hand.clockHourHand.handStyle | Object | √ |  |  | The style of the hour handle |
+| clock.hand.clockHourHand.handStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The fill color of the hour handle |
+| clock.hand.clockHourHand.handStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The border color of the hour handle |
+| clock.hand.clockHourHand.lineStyle | Object | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The color of the rest part of the hour handle |
+| clock.hand.clockMinuteHand | Object | √ |  |  | The style of the minute hand |
+| clock.hand.clockMinuteHand.handStyle | Object | √ |  |  | The style of the minute handle |
+| clock.hand.clockMinuteHand.handStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The fill color of the minute handle |
+| clock.hand.clockMinuteHand.handStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The border color of the minute handle |
+| clock.hand.clockMinuteHand.lineStyle | Object | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The color of the rest part of the minute handle |
+| clock.hand.clockSecondHand | Object | √ |  |  | The style of the  second hand |
+| clock.hand.clockSecondHand.handStyle | Object | √ |  |  | The style of the second handle |
+| clock.hand.clockSecondHand.handStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The fill color of the minute handle |
+| clock.hand.clockSecondHand.lineStyle | Object | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The color of the rest part of the second handle |
+| clock.aloneArc | Object | √ |  |  | The single arc to decorate the clock |
+| clock.aloneArc.show | Bool | √ | true |  | Whether or not to show the single arc |
+| clock.aloneArc.lineStyle | Object | √ |  |  | The style of the single arc |
+| clock.aloneArc.lineStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The fill color of the single arc |
+| clock.aloneArc.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The border color of the single arc |
+| clock.symmetryArc | Object | √ |  |  | The symmetrical arcs to decorate the clock |   |
+| clock.symmetryArc.show | Bool | √ | true |  | Whether or not to show the symmetrical arcs |
+| clock.symmetryArc.lineStyle | Object | √ |  |  | The style of the symmetrical arcs |
+| clock.symmetryArc.lineStyle.fill | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The fill color of the symmetrical arcs |
+| clock.symmetryArc.lineStyle.stroke | String | √ | \#5a9cc7 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | The border color of the symmetricle arcs |
 
 
 
