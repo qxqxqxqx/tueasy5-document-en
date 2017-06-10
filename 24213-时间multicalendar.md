@@ -34,9 +34,9 @@
 
 ### 参数字段说明
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
+| Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| type | String | √ | multiCalendar |  | 控件类型——singleCalendar时间，不可修改 |
+| type | String | √ | multiCalendar |  | The only component type is multiCalendar |
 | themeColor | String | √ | \#667688 | 支持CSS3中颜色的参数值，包括Color Name\(颜色名称\)、HEX、RGB、RGBA、HSL、HSLA、transparent | 日历界面的主体颜色 |
 | orient | String | √ | vertical | horizontal、vertical | 日历展示方式。horizontal横向展示、vertical纵向展示 |
 | inputStyle | Object | √ |  |  | 日期显示框的样式 |
