@@ -106,13 +106,13 @@
 
 ### 参数字段说明
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/描述 |
+| Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| type | String | √ | treeMenu |  | 控件类型——TreeMenu菜单，不可修改 |
-| series | Array\(Object\) | √ |  |  | 菜单数据项，每一个数组元素\(Object\)代表一个一级项 |
-| series\[0\].name | String | √ |  |  | 菜单项文本内容，可以重复 |
-| series\[0\].value | String | √ |  |  | 菜单项唯一标识 |
-| series\[0\].children | Object |  |  |  | 该级菜单项下的子菜单项，结构同一级项一样 |
+| type | String | √ | treeMenu |  | The only component type is treeMenu |
+| series | Array\(Object\) | √ |  |  | Data option of the tree menu, every object item of the array means a level one item |
+| series\[0\].name | String | √ |  |  | Text of the menu item, repeated |
+| series\[0\].value | String | √ |  |  | Uniquely identification of a menu item |
+| series\[0\].children | Object |  |  |  | Child item of this menu item with same constructure |
 | titleName | String | √ |  |  | 初始化菜单时的默认菜单项文本内容。仅用于初始化显示，未选中当前任何菜单项 |
 | SubTreeGap | String | √ | 30px |  | 子菜单距离父级菜单向右缩进的距离 |
 | itemStyle | Object | √ |  |  | 菜单项的样式 |
