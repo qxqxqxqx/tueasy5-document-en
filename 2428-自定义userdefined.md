@@ -47,33 +47,33 @@
 
 <table border="1">
 <tr>
-	<th width="15%">配置项</th>
-	<th width="30%">功能/描述</th>
-	<th>可选参数</th>
+	<th width="15%">Configuration item</th>
+	<th width="30%">Description</th>
+	<th>Optional parameters</th>
 </tr>
 <tr>
 	<td>type | String</td>
-	<td>控件类型——UserDefined自定义，不可修改</td>
+	<td>Component type, unchangeable</td>
 	<td>UserDefined</td>
 </tr>
 <tr>
 	<td>content | String</td>
-	<td>自定义控件代码</td>
+	<td>Costomize code</td>
 	<td></td>
 </tr>
 <tr>
 	<td>series | Array[Object]</td>
-	<td>数据系列配置</td>
+	<td>Datas</td>
 	<td></td>
 </tr>
 <tr>
 	<td>series[0].name | String</td>
-	<td>数据的文本内容，可以重复</td>
+	<td>Content of data, repeatable</td>
 	<td></td>
 </tr>
 <tr>
 	<td>series[0].value | Array[Object]</td>
-	<td>数据的唯一标识，不可重复</td>
+	<td>Uniquely identification of data, unrepeatable</td>
 	<td></td>
 </tr>
 </table>
