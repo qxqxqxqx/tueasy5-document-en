@@ -170,17 +170,17 @@
 </tr>
 <tr>
 <td>series[0].textStyle.normal | Object</td>
-<td>导航项<b>未选中</b>状态下的文本样式</td>
+<td>Text style of normal tab</td>
 <td><pre> {
-//文本大小，支持CSS3中font-size的参数值
+//all css3 parameters'font-size'
 'fontSize': '18px',
-//文本颜色，支持CSS3中颜色的参数值
+//all css3 parameters of 'color'
 'color': '#ffa84e'
 }</pre></td>
 </tr>
 <tr>
 <td>series[0].textStyle.emphasis | Object</td>
-<td>导航项<b>选中</b>状态下的文本样式</td>
+<td>Text style of emphasis tab</td>
 <td><pre> {
 'fontSize': '18px',
 'color': '#ffa84e'
@@ -188,22 +188,22 @@
 </tr>
 <tr>
 <td>series[0].backgroundPathStyle | Object</td>
-<td>导航项的背景斜线，有normal和emphasis两个属性</td>
+<td>Background slash of tabs, parameter can be 'normal' or 'emphasis'</td>
 <td></td>
 </tr>
 <tr>
 <td>series[0].backgroundPathStyle.normal | Object</td>
-<td>导航项<b>未选中</b>状态下的背景斜线样式</td>
+<td>Background slash style of normal tab</td>
 <td><pre> {
-//背景斜线颜色，支持CSS3中颜色的参数值
+//all css3 parameters of 'color'
 'stroke': '#ffe3c6',
-//背景斜线透明度，支持0.0至1.0的数值型参数值
+//Opacity of backgorund slash, parameter can be number from 0.0 to 1.0
 'opacity': 0
 }</pre></td>
 </tr>
 <tr>
 <td>series[0].backgroundPathStyle.emphasis | Object</td>
-<td>导航项<b>选中</b>状态下的背景斜线样式</td>
+<td>Background slash style of emphasis tab</td>
 <td><pre> {
 'stroke': '#ffe3c6',
 'opacity': 1
@@ -211,12 +211,12 @@
 </tr>
 <tr>
 <td>series[0].bothSidesStyle | Object</td>
-<td>导航项的左右边框样式，有normal和emphasis两个属性</td>
+<td>Left and right border style of tabs, parameter can be 'normal' or 'emphasis'</td>
 <td></td>
 </tr>
 <tr>
 <td>series[0].bothSidesStyle.normal | Object</td>
-<td>导航项<b>未选中</b>状态下的左右边框样式</td>
+<td>Left and right border style of nornal tabs</td>
 <td><pre> {
 //左右边框颜色，支持CSS3中颜色的参数值
 'borderColor': '#ffd3a6'
