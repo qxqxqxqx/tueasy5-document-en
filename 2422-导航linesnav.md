@@ -115,7 +115,7 @@
 </tr>
 <tr>
 <td>animation | Object</td>
-<td>Animation of a hovered tab, parameter can be 'showAnimation', 'animationType' or 'animationDelay'</td>
+<td>Animation of a hovered tab, parameter can be 'showAnimation', 'animationType' and 'animationDelay'</td>
 <td></td>
 </tr>
 <tr>
