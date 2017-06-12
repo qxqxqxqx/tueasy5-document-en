@@ -62,7 +62,7 @@
 | series\[0\].name | String | √ |  |  | Uniquely identification of data, unrepeatable |
 | series\[0\].value | String | √ |  |  | Content of data, repeatable |
 | categoryGap | String | √ | 20px |  | Gap between the bars |
-| itemGap | Sting | √ | 10px |  | Gaps between  data items |
+| itemGap | Sting | √ | 10px |  | Gap between  data items |
 | speedTime | Number | √ | 20 |  | Time speed in milliseconds |
 | speedDistance | String | √ | 2px |  | Rate |
 | itemStyle | Object | √ |  |  | Style of the component |
