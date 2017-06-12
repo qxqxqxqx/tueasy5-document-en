@@ -84,53 +84,53 @@
 
 <table border="1">
 <tr>
-<th width="15%">配置项</th>
-<th width="50%">功能/描述</th>
-<th>可选参数</th>
+<th width="15%">Configuration item</th>
+<th width="50%">Description</th>
+<th>Optional parameters</th>
 </tr>
 <tr>
 <td>currentSelect | Number</td>
-<td>初始化进入导航栏时默认的当前选中项</td>
+<td>Default active tab</td>
 <td></td>
 </tr>
 <tr>
 <td>automatic | Object</td>
-<td>自动切换导航栏，有start和interval两个属性</td>
+<td>Automatically switch tabs, parameter can be 'start' or 'interval'</td>
 <td></td>
 </tr>
 <tr>
 <td>automatic.start | Bool</td>
-<td>是否自动切换导航栏</td>
+<td>Whether or not to switch tabs automatically</td>
 <td></td>
 </tr>
 <tr>
 <td>automatic.interval | Number</td>
-<td>切换导航项的时间间隔，单位为毫秒。该属性当且仅当start为true时有效</td>
+<td>Time interval to switch tabs in milliseconds.Works only when 'start' is true</td>
 <td></td>
 </tr>
 <tr>
 <td>maxNumInOneLine | Number</td>
-<td>导航栏中每行可以显示最多的导航项数目</td>
+<td>Maximum number of tabs in one line</td>
 <td></td>
 </tr>
 <tr>
 <td>animation | Object</td>
-<td>鼠标悬浮在导航项时的动画效果，有showAnimation、animationType和animationDelay三个属性</td>
+<td>Animation of a hovered tab, parameter can be 'showAnimation', 'animationType' or 'animationDelay'</td>
 <td></td>
 </tr>
 <tr>
 <td>animation.showAnimation | Bool</td>
-<td>是否应用动画效果</td>
+<td>Whether or not to show animation</td>
 <td></td>
 </tr>
 <tr>
 <td>animation.animationType | String</td>
-<td>动画效果样式</td>
+<td>Animation type</td>
 <td>lattice</td>
 </tr>
 <tr>
 <td>animation.animationDelay | Number</td>
-<td>动画延时时间，即鼠标悬浮后与动画开始时间间隔，单位毫秒</td>
+<td>Animation delay time, that is time interval after a tab is hovered with the animation start in milliseconds</td>
 <td></td>
 </tr>
 <tr>
