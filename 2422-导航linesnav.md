@@ -135,37 +135,37 @@
 </tr>
 <tr>
 <td>orient | String</td>
-<td>导航栏的布局方向</td>
+<td>Layout direction of tabs</td>
 <td>horizontal</td>
 </tr>
 <tr>
 <td>series | Array[Object]</td>
-<td>数据及样式的系列配置</td>
+<td>Data and styles</td>
 <td></td>
 </tr>
 <tr>
 <td>series[0].type | String</td>
-<td>控件类型——withTriangleNav导航栏，不可修改</td>
+<td>Component type, unchangeable</td>
 <td>withLines</td>
 </tr>
 <tr>
 <td>series[0].data | Array[Object]</td>
-<td>导航控件中的数据项</td>
+<td>Data of tabs</td>
 <td></td>
 </tr>
 <tr>
 <td>series[0].data[0].key | String</td>
-<td>导航项数据的唯一标识，不可重复</td>
+<td>Uniquely identification of data, not repeatable</td>
 <td></td>
 </tr>
 <tr>
 <td>series[0].data[0].name | String</td>
-<td>导航项显示的文本数据信息，允许重复</td>
+<td>Text of tab</td>
 <td></td>
 </tr>
 <tr>
 <td>series[0].textStyle | Object</td>
-<td>导航项的文本样式，有normal和emphasis两个属性</td>
+<td>Text style of tab, parameter can be 'normal' or 'emphasis'</td>
 <td></td>
 </tr>
 <tr>
