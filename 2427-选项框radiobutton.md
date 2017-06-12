@@ -52,75 +52,75 @@
 
 <table border="1">
 <tr>
-	<th width="15%">配置项</th>
-	<th width="30%">功能/描述</th>
-	<th>可选参数</th>
+	<th width="15%">Configuration item</th>
+	<th width="30%">Description</th>
+	<th>Optional parameters</th>
 </tr>
 <tr>
 	<td>type | String</td>
-	<td>控件类型——MultiCheckBox选项框，不可修改</td>
+	<td>Component type, unchangeable</td>
 	<td>MultiCheckBox</td>
 </tr>
 <tr>
 	<td>consist | String</td>
-	<td>选项框类型，checkbox为多选；radio为单选</td>
+	<td>Color of content, can be parameter of css3 'color'</td>
 	<td>checkbox、radio</td>
 </tr>
 <tr>
 	<td>orient | String</td>
-	<td>选项框对其方式，horizontal为水平对齐；vertical为垂直对齐</td>
+	<td>Alignment of optional boxes, 'horizontal' means horizontal alignmenr and 'vertical' means vertical alignment</td>
 	<td>horizontal、vertical</td>
 </tr>
 <tr>
 	<td>itemGap | String</td>
-	<td>选项框中选项之间的间距</td>
+	<td>Gap between item and another</td>
 	<td></td>
 </tr>
 <tr>
 	<td>iconGap | String</td>
-	<td>选项框中选项的勾选框与选项文本框之间的间隔</td>
+	<td>Gap between check box and input field</td>
 	<td></td>
 </tr>
 <tr>
 	<td>series | Array[Object]</td>
-	<td>数据系列配置</td>
+	<td>Datas</td>
 	<td></td>
 </tr>
 <tr>
 	<td>series[0].name | String</td>
-	<td>选项数据显示时的文本内容，可以重复</td>
+	<td>Content of check box, repeatable</td>
 	<td></td>
 </tr>
 <tr>
 	<td>series[0].value | Array[Object]</td>
-	<td>选项数据的唯一标识，不可重复</td>
+	<td>Uniquely identification of data, unrepeatable</td>
 	<td></td>
 </tr>
 <tr>
 	<td>checkedValues | Array[String]</td>
-	<td>初始化选项框时选中状态的选项标识</td>
+	<td>Default actived items</td>
 	<td></td>
 </tr>
 <tr>
 	<td>itemStyle | Object</td>
-	<td>选项框中选项样式，有normal和checked两个属性</td>
+	<td>Items style, can be 'normal' or 'checked'</td>
 	<td></td>
 </tr>
 <tr>
 	<td>itemStyle.normal | Object</td>
-	<td>选项框中选项<b>未选中</b>状态的样式</td>
+	<td>Unselected style of check box</td>
 	<td><pre> {
-	//文本颜色，支持CSS3中颜色的参数值
+	//Content color, can be parameter of css3 'color'
 	'color': '#999999',
-	//文本大小，支持CSS3中font-size的参数值
+	//Font size, can be parameter of css3 'font-size'
 	'fontSize': '20px',
-	//背景颜色，支持CSS3中颜色的参数值
+	//Background color, can be parameter of css3 'background-color'
 	'backgroundColor': 'none'
   }</pre></td>
 </tr>
 <tr>
 	<td>itemStyle.checked | Object</td>
-	<td>选项框中选项<b>选中</b>状态的样式</td>
+	<td>Selected style of check box</td>
 	<td><pre> {
 	'color': '#ffa94e',
 	'fontSize': '20px'
