@@ -57,20 +57,20 @@
 
 | Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| type | String | √ | Marquee |  | The type of the component is marquee |
-| series | Array\(Object\) | √ |  |  | The data of the component |
-| series\[0\].name | String | √ |  |  | The unique identification of the data, can not be repeated |
-| series\[0\].value | String | √ |  |  | The text value of the data, can be repeated |
-| categoryGap | String | √ | 20px |  | The gaps between the bars |
-| itemGap | Sting | √ | 10px |  | The gaps between the data items |
-| speedTime | Number | √ | 20 |  | The time speed unit is millisecond |
-| speedDistance | String | √ | 2px |  | The rate |
-| itemStyle | Object | √ |  |  | The style of the component |
-| itemStyle.normal | Object | √ |  |  | The normal style of the component |
-| itemStyle.normal.fontSize | String | √ | 20px | font-size parameters is supported | The fontSize of the component |
-| itemStyle.normal.color | String | √ | \#c1c1c1 | The color parameters including Color Name、HEX、RGB、RGBA、HSL、HSLA、transparent are supported | The color of the component |
-| itemStyle.normal.background | String | √ | \#eff1f3 | all css3 parameters are supported | The background style of the component |
-| itemStyle.normal.paddingLeft | String | √ | 5px |  | The paddingLeft of the component |
+| type | String | √ | Marquee |  | Component type, unchangeable |
+| series | Array\(Object\) | √ |  |  | Data of the component |
+| series\[0\].name | String | √ |  |  | Uniquely identification of data, unrepeatable |
+| series\[0\].value | String | √ |  |  | Content of data, repeatable |
+| categoryGap | String | √ | 20px |  | Gap between the bars |
+| itemGap | Sting | √ | 10px |  | Gaps between  data items |
+| speedTime | Number | √ | 20 |  | Time speed in milliseconds |
+| speedDistance | String | √ | 2px |  | Rate |
+| itemStyle | Object | √ |  |  | Style of the component |
+| itemStyle.normal | Object | √ |  |  | Normal style of the component |
+| itemStyle.normal.fontSize | String | √ | 20px | font-size parameters | FontSize of the component |
+| itemStyle.normal.color | String | √ | \#c1c1c1 | Color parameters including Color Name、HEX、RGB、RGBA、HSL、HSLA、transparent | Color of the component |
+| itemStyle.normal.background | String | √ | \#eff1f3 | all css3 parameters of 'background' | Background style of the component |
+| itemStyle.normal.paddingLeft | String | √ | 5px |  | PaddingLeft of the component |
 
 > 注：
 >
