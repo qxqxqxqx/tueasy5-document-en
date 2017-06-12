@@ -37,20 +37,20 @@
 
 ### 参数字段说明
 
-| 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/描述 |
+| Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| scanningRadar | Object | √ |  |  | 雷达底图样式 |
-| scanningRadar.splitLine | Object | √ |  |  | 雷达底图圆环样式 |
-| scanningRadar.splitLine.show | Bool | √ | true |  | 是否显示雷达底图圆环 |
-| scanningRadar.splitLine.lineStyle | Object | √ |  |  | 雷达底图圆环线样式 |
-| scanningRadar.splitLine.lineStyle.stroke | String | √ | \#0afea4 |  | 雷达底图圆环线颜色 |
-| scanningRadar.axisLine | Object |  |  |  | 雷达底图辅助线 |
-| scanningRadar.axisLine.show | Bool | √ | true |  | 是否显示雷达底图辅助线 |
-| scanningRadar.axisLine.lineStyle | Object | √ |  |  | 雷达底图辅助线样式 |
-| scanningRadar.axisLine.lineStyle.stroke | String | √ | \#0afea4 |  | 雷达底图辅助线颜色 |
-| series | Array\(Object\) | √ |  |  | 雷达扫描片配色样式 |
-| series\[0\].type | String | √ | scanningRadar |  | 控件类型——scanningRadar雷达，不可修改 |
-| series\[0\].colors | String | √ | 'white','\#10a7ba','white' |  | 雷达扫描片配色组 |
+| scanningRadar | Object | √ |  |  | Background style of the radar |
+| scanningRadar.splitLine | Object | √ |  |  | Ring style of the radar background |
+| scanningRadar.splitLine.show | Bool | √ | true |  | Whether or not to show the ring |
+| scanningRadar.splitLine.lineStyle | Object | √ |  |  | Line style of the ring |
+| scanningRadar.splitLine.lineStyle.stroke | String | √ | \#0afea4 |  | Color of the ring |
+| scanningRadar.axisLine | Object |  |  |  | Axis line of the radar |
+| scanningRadar.axisLine.show | Bool | √ | true |  | Whether or not to show axis line |
+| scanningRadar.axisLine.lineStyle | Object | √ |  |  | Style of axis line |
+| scanningRadar.axisLine.lineStyle.stroke | String | √ | \#0afea4 |  | Color of axis line |
+| series | Array\(Object\) | √ |  |  | Color matching of scanning part |
+| series\[0\].type | String | √ | scanningRadar |  | Component type, unchangeable |
+| series\[0\].colors | String | √ | 'white','\#10a7ba','white' |  | Color group of scanning part |
 
 
 
