@@ -55,10 +55,10 @@
 
 | Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| grid\[0\].top | Number | √ | 10 |  | The abscissa of the upper left corner in the drawing grid, the numerical unit is px |
-| grid\[0\].right | Number | √ | 50 |  | The ordinate of the upper left corner in the drawing grid, the numerical unit is px |
-| grid\[0\].bottom | Number | √ | 20 |  | The ordinate of bottom right corner in the drawing grid, the numerical unit is px |
-| grid\[0\].left | Number | √ | 50 |  | The abscissa of bottom right corner in the drawing grid, the numerical unit is px |
+| grid\[0\].top | Number | √ | 10 |  | The abscissa of the upper left corner in the drawing grid, in px |
+| grid\[0\].right | Number | √ | 50 |  | The ordinate of the upper left corner in the drawing grid, in px |
+| grid\[0\].bottom | Number | √ | 20 |  | The ordinate of bottom right corner in the drawing grid, in px |
+| grid\[0\].left | Number | √ | 50 |  | The abscissa of bottom right corner in the drawing grid, in px |
 | grid\[0\].bgStyle | Object | √ |  |  | The background style of the Cartesian coordinate system |
 | grid\[0\].bgStyle.normal | Object | √ |  |  | The background style of the **unselected state** |
 | grid\[0\].bgStyle.normal.fill | String | √ | rgba\(0,0,0,0\) |  | The background color of the **unselected state** |
@@ -181,44 +181,44 @@
 | xAxis\[0\].inverse | Boolean | √ | false |  | Whether or not to reverse the chart in the horizontal direction |
 | xAxis\[0\].axisLine | Object | √ |  |  | Horizontal axis |
 | xAxis\[0\].axisLine.show | Boolean | √ | false |  | Whether or not to show the horizontal axis |
-| xAxis\[0\].axisLine.lineStyle | Object | √ |  |  | The style of the horizontal axis |
-| xAxis\[0\].axisLine.lineStyle.stroke | String | √ |  |  | The color of the horizontal axis |
-| xAxis\[0\].axisLine.lineStyle.stroke-width | String | √ | 2 |  | The width of the horizontal axis |
-| xAxis\[0\].axisLabel | Object | √ |  |  | The text label of the horizontal axis |
+| xAxis\[0\].axisLine.lineStyle | Object | √ |  |  | Style of the horizontal axis |
+| xAxis\[0\].axisLine.lineStyle.stroke | String | √ |  |  | Color of the horizontal axis |
+| xAxis\[0\].axisLine.lineStyle.stroke-width | String | √ | 2 |  | Width of the horizontal axis |
+| xAxis\[0\].axisLabel | Object | √ |  |  | Text label of the horizontal axis |
 | xAxis\[0\].axisLabel.show | Boolean | √ | false |  | Whether or not to show the text label of the horizontal axis |
-| xAxis\[0\].axisLabel.interval | String \| Number | √ | auto |  | The gap of the text labels. 'auto' means automatically hide the overflow ones; '0' means show all |
+| xAxis\[0\].axisLabel.interval | String \| Number | √ | auto |  | Gap of the text labels. 'auto' means automatically hide the overflow ones; '0' means show all |
 | xAxis\[0\].axisLabel.inside | Boolean | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.rotate | Number | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.margin | Number | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.formatter | String \| Function | -- | -- | -- | -- |
-| xAxis\[0\].axisLabel.textStyle | Object | √ |  |  | The text style of the text label |
-| xAxis\[0\].axisLabel.textStyle.font-size | Number | √ | 12 |  | The fontsize of the text label |
-| xAxis\[0\].axisLabel.textStyle.font-style | String | √ | normal |  | The fontStyle of the text label |
-| xAxis\[0\].axisLabel.textStyle.font-weight | String | √ | normal |  | The fontWeight of the text label |
-| xAxis\[0\].axisLabel.textStyle.font-family | String | √ | sans-serif |  | The fontFamily of the text label |
-| xAxis\[0\].axisLabel.textStyle.fill | String | √ | \#fff |  | The text color of the text label |
-| xAxis\[0\].axisTick | Object | √ |  |  | The scale line of the horizontal axis |
+| xAxis\[0\].axisLabel.textStyle | Object | √ |  |  | Text style of the text label |
+| xAxis\[0\].axisLabel.textStyle.font-size | Number | √ | 12 |  | Fontsize of the text label |
+| xAxis\[0\].axisLabel.textStyle.font-style | String | √ | normal |  | FontStyle of the text label |
+| xAxis\[0\].axisLabel.textStyle.font-weight | String | √ | normal |  | FontWeight of the text label |
+| xAxis\[0\].axisLabel.textStyle.font-family | String | √ | sans-serif |  | FontFamily of the text label |
+| xAxis\[0\].axisLabel.textStyle.fill | String | √ | \#fff |  | Text color of the text label |
+| xAxis\[0\].axisTick | Object | √ |  |  | Scale line of the horizontal axis |
 | xAxis\[0\].axisTick.show | Boolean | √ | false |  | Whether or not to show the scale line |
-| xAxis\[0\].axisTick.symbol | String | √ | line |  | The symbol of the scale line |
+| xAxis\[0\].axisTick.symbol | String | √ | line |  | Symbol of the scale line |
 | xAxis\[0\].axisTick.inside | Boolean | √ | false |  | Whether the scale line is inside of the horizontal axis or not |
-| xAxis\[0\].axisTick.length | Number | √ | 10 |  | The height of the scale line |
-| xAxis\[0\].axisTick.symbolStyle | Object | √ |  |  | The style of the scale line symbol |
-| xAxis\[0\].axisTick.symbolStyle.stroke | String | √ | \#fff |  | The color of the scale line symbol |
-| xAxis\[0\].axisTick.symbolStyle.stroke-width | Number | √ | 1 |  | The width of the scale line symbol |
-| xAxis\[0\].splitLine | Object | √ |  |  | The split line of the horizontal axis |
+| xAxis\[0\].axisTick.length | Number | √ | 10 |  | Height of the scale line |
+| xAxis\[0\].axisTick.symbolStyle | Object | √ |  |  | Style of the scale line symbol |
+| xAxis\[0\].axisTick.symbolStyle.stroke | String | √ | \#fff |  | Color of the scale line symbol |
+| xAxis\[0\].axisTick.symbolStyle.stroke-width | Number | √ | 1 |  | Width of the scale line symbol |
+| xAxis\[0\].splitLine | Object | √ |  |  | Split line of the horizontal axis |
 | xAxis\[0\].splitLine.show | Boolean | √ | true |  | Whether or not to show the split line |
-| xAxis\[0\].splitLine.lineStyle | Object | √ |  |  | The style of the split line |
-| xAxis\[0\].splitLine.lineStyle.stroke | String | √ | \#0f0 |  | The color of the split line |
-| xAxis\[0\].splitLine.lineStyle.stroke-width | Number | √ | 1 |  | The width of the split line |
-| xAxis\[0\].splitLine.lineStyle.stroke-dasharray | Array\(Number\) | √ | \[1 0\] | SVG stroke-dasharray parameter supported | The type of the split line |
-| xAxis\[0\].position | String | √ | bottom | bottom、left、right、top | The position of the horizontal axis |
-| xAxis\[0\].min | Number | √ | 0 |  | The minimum value of the horizontal axis |
-| xAxis\[0\].max | Number | √ | 1500 |  | The maximum value of the horizontal axis |
-| xAxis\[0\].name | String | -- | -- | -- | The name of the horizontal axis |
-| xAxis\[0\].nameLocation | String | -- | -- | center、end、start | The position of the horizontal axis name |
-| xAxis\[0\].nameGap | Number | -- | -- | -- | The gap between the name and the horizontal axis |
-| xAxis\[0\].data | Array\(String\) |  |  |  | The discrete values of the horizontal value |
-| xAxis\[0\].boundaryGap | Number | -- | -- | -- | The gaps of both ends blank |
+| xAxis\[0\].splitLine.lineStyle | Object | √ |  |  | Style of the split line |
+| xAxis\[0\].splitLine.lineStyle.stroke | String | √ | \#0f0 |  | Color of the split line |
+| xAxis\[0\].splitLine.lineStyle.stroke-width | Number | √ | 1 |  | Width of the split line |
+| xAxis\[0\].splitLine.lineStyle.stroke-dasharray | Array\(Number\) | √ | \[1 0\] | SVG stroke-dasharray parameter supported | Type of the split line |
+| xAxis\[0\].position | String | √ | bottom | bottom、left、right、top | Position of the horizontal axis |
+| xAxis\[0\].min | Number | √ | 0 |  | Minimum value of the horizontal axis |
+| xAxis\[0\].max | Number | √ | 1500 |  | Maximum value of the horizontal axis |
+| xAxis\[0\].name | String | -- | -- | -- | Name of the horizontal axis |
+| xAxis\[0\].nameLocation | String | -- | -- | center、end、start | Position of the horizontal axis name |
+| xAxis\[0\].nameGap | Number | -- | -- | -- | Gap between the name and the horizontal axis |
+| xAxis\[0\].data | Array\(String\) |  |  |  | Discrete values of the horizontal value |
+| xAxis\[0\].boundaryGap | Number | -- | -- | -- | Gaps of both ends blank |
 | xAxis\[0\].splitNumber | Number | √ | 5 |  | Number of the horizontal divided |
 | xAxis\[0\].splitTicks | Array | -- | -- | -- | -- |
 | xAxis\[0\].splitArea | Object | -- | -- | -- | -- |
@@ -295,17 +295,17 @@ yAxis的配置与xAxis的配置相同
 
 | 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| series\[0\].name | String | √ |  |  | The name of the data which can not be repeated |
-| series\[0\].type | String | √ | tickbar |  | The chart type base on the data,E.g: tickbar means bar chart |
-| series\[0\].coordinateSystem | String | √ | cartesian2d |  | The type of the coordinate system |
-| series\[0\].data | Array\(Number\) | √ |  |  | The data values |
-| series\[0\].clipPath | Object | √ |  |  | The minimum unit of the bar chart |
-| series\[0\].clipPath.symbol | String | √ | rect | circle、person、rect | The type of the bar chart unit |
-| series\[0\].clipPath.symbolGap | Number | √ | 0.1 |  | The  gaps between units |
-| series\[0\].clipPath.symbolNumber | Number | √ | 15 |  | The number of the units |
+| series\[0\].name | String | √ |  |  | Name of the data which can not be repeated |
+| series\[0\].type | String | √ | tickbar |  | Chart type base on the data,E.g: tickbar means bar chart |
+| series\[0\].coordinateSystem | String | √ | cartesian2d |  | Type of the coordinate system |
+| series\[0\].data | Array\(Number\) | √ |  |  | Data values |
+| series\[0\].clipPath | Object | √ |  |  | Minimum unit of the bar chart |
+| series\[0\].clipPath.symbol | String | √ | rect | circle、person、rect | Type of the bar chart unit |
+| series\[0\].clipPath.symbolGap | Number | √ | 0.1 |  | Gaps between units |
+| series\[0\].clipPath.symbolNumber | Number | √ | 15 |  | Number of the units |
 | series\[0\].clipPath.showBack | Boolean | √ | true |  | Whether or not to show the units which has no value |
-| series\[0\].symbolStyle | Object | √ |  |  | The style of the units |
-| series\[0\].symbolStyle.normal | Object | √ |  |  | The style of the units which are unselected |
+| series\[0\].symbolStyle | Object | √ |  |  | Style of the units |
+| series\[0\].symbolStyle.normal | Object | √ |  |  | Style of the units which are unselected |
 | series\[0\].symbolStyle.normal.fill | String | √ |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
