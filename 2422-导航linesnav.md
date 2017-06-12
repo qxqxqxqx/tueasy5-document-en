@@ -216,27 +216,27 @@
 </tr>
 <tr>
 <td>series[0].bothSidesStyle.normal | Object</td>
-<td>Left and right border style of nornal tabs</td>
+<td>Left and right border style of normal tabs</td>
 <td><pre> {
-//左右边框颜色，支持CSS3中颜色的参数值
+//all css3 paramerers of 'color'
 'borderColor': '#ffd3a6'
 }</pre></td>
 </tr>
 <tr>
 <td>series[0].bothSidesStyle.emphasis | Object</td>
-<td>导航项<b>选中</b>状态下的左右边框样式</td>
+<td>Left and right border style if enphasis tabs</td>
 <td><pre> {
 'borderColor': '#f6eb3f'
 }</pre></td>
 </tr>
 <tr>
 <td>series[0].name | String</td>
-<td>导航栏绑定数据时的数据字段名称</td>
+<td>Field name of data</td>
 <td></td>
 </tr>
 <tr>
 <td>itemGap | Number</td>
-<td>导航项之间的间距</td>
+<td>Gap between tab and another</td>
 <td></td>
 </tr>
 </table>
