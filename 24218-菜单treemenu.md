@@ -108,7 +108,7 @@
 
 | Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| type | String | √ | treeMenu |  | The only component type is treeMenu |
+| type | String | √ | treeMenu |  | Component type, unchangeable |
 | series | Array\(Object\) | √ |  |  | Data option of the tree menu, every object item of the array means a level one item |
 | series\[0\].name | String | √ |  |  | Text of the menu item, repeated |
 | series\[0\].value | String | √ |  |  | Uniquely identification of a menu item |
@@ -120,23 +120,23 @@
 | itemStyle.primaryStyle.height | String | √ | 40px | all css3 height parameters | Primary height of menu item |
 | itemStyle.primaryStyle.fontFamily | String | √ | 微软雅黑 | all css3 font-family parameters | Primary fontFamily of menu item |
 | itemStyle.primaryStyle.fontSize | String | √ | 14px | all css3 font-size parameters | Primary fontSize of menu item |
-| itemStyle.primaryStyle.color | String | √ | \#fff | The color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent are supported | Primary text color of menu item |
+| itemStyle.primaryStyle.color | String | √ | \#fff | Color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent | Primary text color of menu item |
 | itemStyle.primaryStyle.display | String | √ | inline-block | all css3 display parameters | Primaty display type of menu text |
-| itemStyle.primaryStyle.backgroundColor | String | √ | rgb\(102, 118, 136\) | The color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent are supported | Primary background color of menu item |
+| itemStyle.primaryStyle.backgroundColor | String | √ | rgb\(102, 118, 136\) | Color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent | Primary background color of menu item |
 | itemStyle.primaryStyle.lineHeight | String | √ | 40px | all css3 line-height parameters | Primary line height of menu item |
 | itemStyle.primaryArrowStyle | Object | √ |  |  | Primary triangle style of menu item |
 | itemStyle.primaryArrowStyle.fontSize | String | √ | 14px | all css3 font-size parameters | Primary triangle size of menu item |
-| itemStyle.primaryArrowStyle.color | String | √ | \#fff | The color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent are supported | Primary triangle color of menu item |
+| itemStyle.primaryArrowStyle.color | String | √ | \#fff | Color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent | Primary triangle color of menu item |
 | itemStyle.menuStyle | Object | √ |  |  | Dropdown style of menu item |
 | itemStyle.menuStyle.normal | Object | √ |  |  | **Unselected** style of dropdown menu |
 | itemStyle.menuStyle.normal.fontSize | String | √ | 14px | all css3 font-size parameters | **Unselected** fontSize of dropdown menu |
-| itemStyle.menuStyle.normal.color | String | √ | \#fff | The color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent are supported | Unselected color of dropdown menu |
-| itemStyle.menuStyle.normal.backgroundColor | String | √ | rgb\(102, 118, 136\) | The color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent are supported | **Unselected** background color of dropdown menu |
+| itemStyle.menuStyle.normal.color | String | √ | \#fff | Color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent | Unselected color of dropdown menu |
+| itemStyle.menuStyle.normal.backgroundColor | String | √ | rgb\(102, 118, 136\) | Color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent | **Unselected** background color of dropdown menu |
 | itemStyle.menuStyle.normal.fontFamily | String | √ | 微软雅黑 | all css3 font-family parameters | **Unselected** fontFamily of dropdown menu |
 | itemStyle.menuStyle.normal.lineHeight | String | √ | 40px | all css3 line-height parameters | **Unselected** lineHeight of dropdown menu |
 | itemStyle.menuStyle.emphasis | Object | √ |  |  | **Selected** style of dropdown menu |
-| itemStyle.menuStyle.emphasis.color | String | √ | \#fff | The color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent are supported | **Selected** text color of dropdown menu |
-| itemStyle.menuStyle.emphasis.backgroundColor | String | √ | rgb\(239, 241, 243\) | The color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent are supported | **Selected** background color of dropdown menu |
+| itemStyle.menuStyle.emphasis.color | String | √ | \#fff | Color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent | **Selected** text color of dropdown menu |
+| itemStyle.menuStyle.emphasis.backgroundColor | String | √ | rgb\(239, 241, 243\) | Color parameters including Color Name, HEX, RGB, RGBA, HSL, HSLA, transparent | **Selected** background color of dropdown menu |
 
 > 注：
 >
