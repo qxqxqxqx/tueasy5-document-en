@@ -72,28 +72,28 @@
 
 <table border="1">
 <tr>
-	<th width="15%">配置项</th>
-	<th width="30%">功能/描述</th>
-	<th>可选参数</th>
+	<th width="15%">Configuration item</th>
+	<th width="30%">Description</th>
+	<th>Optional parameters</th>
 </tr>
 <tr>
 	<td>type | String</td>
-	<td>控件类型——Text文本框，不可修改</td>
+	<td>Component type, unchangeable</td>
 	<td>Text</td>
 </tr>
 <tr>
 	<td>label | Object</td>
-	<td>输入文本框的提示标签，有text和style两个属性</td>
+	<td>Label of input field, parmeters are 'text' and 'style'</td>
 	<td></td>
 </tr>
 <tr>
 	<td>label.text | String</td>
-	<td>输入文本框的提示标签的文本内容</td>
+	<td>Text of label</td>
 	<td></td>
 </tr>
 <tr>
 	<td>label.style | Object</td>
-	<td>输入文本框的提示标签的样式，仅有normal一个属性</td>
+	<td>Label style of input field, attribute can only be 'normal'</td>
 	<td></td>
 </tr>
 <tr>
