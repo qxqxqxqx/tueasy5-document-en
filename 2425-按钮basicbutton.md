@@ -60,46 +60,46 @@
 
 <table border="1">
 <tr>
-	<th width="15%">配置项</th>
-	<th width="30%">功能/描述</th>
-	<th>可选参数</th>
+	<th width="15%">Configuration item</th>
+	<th width="30%">Description</th>
+	<th>Optional parameters</th>
 </tr>
 <tr>
 	<td>type | String</td>
-	<td>控件类型——Button按钮，不可修改</td>
+	<td>Component type, unchangeable</td>
 	<td>Button</td>
 </tr>
 <tr>
 	<td>normal | Object</td>
-	<td>按钮<b>未选中</b>状态的样式</td>
+	<td>Unselected style of button</td>
 	<td><pre> {
-	//背景颜色，支持CSS3中颜色的参数值
+	//Background color, can be parameter of css3 'background-color'
 	'backgroundColor': '#31b16c',
-	//文本大小，支持CSS3中font-size的参数值
+	//Font size, can be parameter of css3 'font-size'
 	'fontSize': '20px',
-	//边框圆角角度，支持CSS3中border-radius的参数值
+	//Border radius, can be parameter of css3 'border radius'
 	'borderRadius': '5px'
-	//边框颜色，支持CSS3中border-color的参数值
+	//Border color, can be parameter of css3 'border-color'
 	'borderColor': '#31b16c',
-	//边框宽度，支持CSS3中border-width的参数值
+	//Border width, can be parameter of css3 'border-width'
 	'borderWidth': 1px,
-	//边框样式，支持CSS3中border-style的参数值
+	//Border style, can be parameter of css3 'border-style'
 	'borderStyle': 'solid',
-	//文本颜色，支持CSS3中颜色的参数值
+	//Text color, can be parameter of css3 'color'
 	'color': '#fff'
-	//文本行间距，支持CSS3中line-height的参数值
+	//Line height, can be parameter of css3 'line-height'
 	'lineHeight': '47px',
-	//文本水平对齐方式，支持CSS3中text-align的参数值
+	//Text horizontal alignment, can be parameter of css3 'text-align'
 	'textAlign': 'center',
-	//鼠标样式，支持CSS3中cursor的参数值
+	//Cursor style, can be parameter of css3 'cursor'
 	'cursor': 'pointer',
-	//透明度，支持CSS3中opacity的参数值
+	//Opacity of button, can be parameter of css3 'opacity'
 	'opacity': 0.6
   }</pre></td>
 </tr>
 <tr>
 	<td>mouse | Object</td>
-	<td>按钮<b>鼠标悬浮</b>状态的样式</td>
+	<td>Hovered style of button</td>
 	<td><pre> {
 	'backgroundColor': '#31b16c',
 	'fontSize': '20px',
@@ -116,7 +116,7 @@
 </tr>
 <tr>
 	<td>emphasis | Object</td>
-	<td>按钮<b>选中</b>状态的样式</td>
+	<td>Selected style of button</td>
 	<td><pre> {
 	'backgroundColor': '#31b16c',
 	'fontSize': '20px',
@@ -133,12 +133,12 @@
 </tr>
 <tr>
 	<td>selected | Bool</td>
-	<td>是否为选中状态</td>
+	<td>Whether or not to be selected</td>
 	<td></td>
 </tr>
 <tr>
 	<td>text | String</td>
-	<td>按钮的文本内容</td>
+	<td>Content of button</td>
 	<td></td>
 </tr>
 </table>
