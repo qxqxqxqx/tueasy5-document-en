@@ -98,62 +98,62 @@
 </tr>
 <tr>
 	<td>label.style.normal | Object</td>
-	<td>输入文本框的提示标签的样式</td>
+	<td>Style of label</td>
 	<td><pre> {
-	//文本水平对齐方式，支持CSS3中text-align的参数值
+	//Text horizontal alignment, can be css3 parameters of 'text-align'
 	'textAlign': 'center',
-	//文本大小，支持CSS3中font-size的参数值
+	//Font size, can be css3 parameters of 'font-size'
 	'fontSize': '16px',
-	//文本样式，支持CSS3中font-family的参数值
+	//Font family, can be css3 parameters of 'font-family'
 	'fontFamily': 'Hiragino Sans GB',
-	//文本粗细，支持CSS3中font-weight的参数值
+	//Font weight, can be css3 parameters of 'font-weight'
 	'fontWeight': 400,
-	//文本颜色，支持CSS3中颜色的参数值
+	//Text color, can be css3 parameters of 'color'
 	'color': '#CCC'
   }</pre></td>
 </tr>
 <tr>
 	<td>input | Object</td>
-	<td>输入文本框的输入框，有value和style两个属性</td>
+	<td>Input field, attribute can be 'value' and 'style'</td>
 	<td></td>
 </tr>
 <tr>
 	<td>input.value | String</td>
-	<td>输入文本框的输入框的文本内容</td>
+	<td>Content of input field</td>
 	<td></td>
 </tr>
 <tr>
 	<td>input.style | Object</td>
-	<td>输入文本框的提示标签的样式，有normal、mouse和emphasis三个属性</td>
+	<td>Label style of input field, attribute can be 'normal', 'mouse' or 'emphasis'</td>
 	<td></td>
 </tr>
 <tr>
 	<td>input.style.normal | Object</td>
-	<td>输入文本框的输入框<b>未选中</b>状态的样式</td>
+	<td>Unselected style of input field</td>
 	<td><pre> {
-	//文本颜色，支持CSS3中颜色的参数值
+	//Text color, can be css3 parameters of 'color'
 	'color': '#333',
-	//文本大小，支持CSS3中font-size的参数值
+	//Font size, can be css3 parameters of 'font-size'
 	'fontSize': '15px',
-	//文本样式，支持CSS3中font-family的参数值
+	//Font family, can be css3 parameters of 'font-family'
 	'fontFamily': 'Hiragino Sans GB',
-	//文本水平对齐方式，支持CSS3中text-align的参数值
+	//Text horizontal alignment, can be css3 parameters of 'text-align'
 	'textAlign': 'center',
-	//背景样式，支持CSS3中background的参数值
+	//Background style, can be css3 parameters of 'background'
 	'background': 'none',
-	//边框宽度，支持CSS3中border-width的参数值
+	//Border width, can be css3 parameters of 'border-width'
 	'borderWidth': 1px,
-	//边框颜色，支持CSS3中border-color的参数值
+	//Border color, can be css3 parameters of 'border-color'
 	'borderColor': '#4285F4',
-	//边框样式，支持CSS3中border-style的参数值
+	//Border style, can be css3 parameters of 'border-style'
 	'borderStyle': 'solid',
-	//边框圆角角度，支持CSS3中border-radius的参数值
+	//Border radius, can be css3 parameters of 'border-radius'
 	'borderRadius': '1px'
   }</pre></td>
 </tr>
 <tr>
 	<td>input.style.mouse | Object</td>
-	<td>输入文本框的输入框<b>鼠标悬浮</b>状态的样式</td>
+	<td>Hovered style of input field</td>
 	<td><pre> {
 	'color': '#333',
 	'fontSize': '16px',
@@ -168,7 +168,7 @@
 </tr>
 <tr>
 	<td>input.style.emphasis | Object</td>
-	<td>输入文本框的输入框<b>选中</b>状态的样式</td>
+	<td>Selected style of input field</td>
 	<td><pre> {
 	'color': '#333',
 	'fontSize': '15px',
