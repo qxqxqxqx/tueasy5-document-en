@@ -57,70 +57,70 @@
 
 <table border="1">
 <tr>
-	<th width="15%">配置项</th>
-	<th width="30%">功能/描述</th>
-	<th>可选参数</th>
+	<th width="15%">Configuration item</th>
+	<th width="30%">Description</th>
+	<th>Optional parameters</th>
 </tr>
 <tr>
 	<td>type | String</td>
-	<td>控件类型——Weather自定义，不可修改</td>
+	<td>Component type, unchangeable</td>
 	<td>Weather</td>
 </tr>
 <tr>
 	<td>weatherControlStyle | Object</td>
-	<td>天气控件的整体样式</td>
+	<td>Style of Weather Component</td>
 	<td><pre> {
-	//背景样式，支持CSS3中background的参数值
+	//Background style, can be parameter of css3 'background'
 	'background': '#ccc'
 }</pre></td>
 </tr>
 <tr>
 	<td>getWeather | Object</td>
-	<td>天气控件的天气信息获取及显示样式</td>
+	<td>Get weather infomation and style</td>
 	<td><pre> {
-	//宽度，支持CSS3中width的参数值
+	//Width of component, can be parameter of css3 'width'
 	'width': '300px',
-	//高度，支持CSS3中height的参数值
+	//Height of component, can be parameter of css3 'height'
 	'height': '300px',
 	...
 }</pre></td>
 </tr>
 <tr>
 	<td>getWeather.isByCity | Object</td>
-	<td>天气控件通过城市名获取天气信息，有byCity和city两个属性</td>
+	<td>Get weather infomation by city name, attributes can be 'byCity' and 'city'</td>
 	<td><pre> {
-	//是否通过城市名获取天气信息，Bool
+	//Whether or not to get weather infomation by city
 	'byCity': 'true',
-	//获取天气信息的城市名，String
+	//City name
 	'city': '北京'
 }</pre></td>
 </tr>
 <tr>
 	<td>getWeather.isByCoordinates | Object</td>
-	<td>天气控件通过经纬度名获取天气信息，有byCoordinates、longitude和latitude三个属性</td>
+	<td>Get weather infomation by coordinate, attributes can be 'byCoordinates', 'longitude' and 'latitude'</td>
 	<td><pre> {
-	//是否通过经纬度获取天气信息，Bool
+	//Whether or not to get weather infomation by coordinate
 	'byCoordinates': 'true',
-	//获取天气信息的经度，String
+	//get longitude
 	'longitude': '116.305145',
-	//获取天气信息的纬度，String
+	//get latitude
 	'latitude': '39.982368'
 }</pre></td>
 </tr>
 <tr>
 	<td>getWeather.windStyle | Object</td>
-	<td>天气控件中<b>风</b>信息样式</td>
+	<td>Infomation and style of wind</td>
 	<td><pre> {
-	//文本样式
+	//Content style
 	'textStyle': {
-		//文本颜色，支持CSS3中颜色的参数值
+		//Content color, can be parameter of css3 'color'
 		'color': '#fff'
 	}
 }</pre></td>
 </tr>
 <tr>
 	<td>getWeather.weatherStyle | Object</td>
-	<td>天气控件中<b>天气</b>信息样式</td>
+	<td>Infomation and style of whether</td>
 	<td><pre> {
 	'textStyle': {
 		'color': '#fff'
@@ -129,7 +129,7 @@
 </tr>
 <tr>
 	<td>getWeather.temperatureStyle | Object</td>
-	<td>天气控件中<b>温度</b>信息样式</td>
+	<td>Infomation and style of temperature</td>
 	<td><pre> {
 	'textStyle': {
 		'color': '#fff'
@@ -138,7 +138,7 @@
 </tr>
 <tr>
 	<td>getWeather.timeStyle | Object</td>
-	<td>天气控件中<b>时间</b>信息样式</td>
+	<td>Infomation and style of time</td>
 	<td><pre> {
 	'textStyle': {
 		'color': '#fff'
@@ -147,7 +147,7 @@
 </tr>
 <tr>
 	<td>getWeather.weekStyle | Object</td>
-	<td>天气控件中<b>星期</b>信息样式</td>
+	<td>Infomation and style of week</td>
 	<td><pre> {
 	'textStyle': {
 		'color': '#fff'
