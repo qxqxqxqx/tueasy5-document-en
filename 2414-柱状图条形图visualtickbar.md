@@ -55,15 +55,15 @@
 
 | Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| grid\[0\].top | Number | √ | 10 |  | The abscissa of the upper left corner in the drawing grid, in px |
-| grid\[0\].right | Number | √ | 50 |  | The ordinate of the upper left corner in the drawing grid, in px |
-| grid\[0\].bottom | Number | √ | 20 |  | The ordinate of bottom right corner in the drawing grid, in px |
-| grid\[0\].left | Number | √ | 50 |  | The abscissa of bottom right corner in the drawing grid, in px |
-| grid\[0\].bgStyle | Object | √ |  |  | The background style of the Cartesian coordinate system |
-| grid\[0\].bgStyle.normal | Object | √ |  |  | The background style of the **unselected state** |
-| grid\[0\].bgStyle.normal.fill | String | √ | rgba\(0,0,0,0\) |  | The background color of the **unselected state** |
-| grid\[0\].bgStyle.emphasis | Object | √ |  |  | The background color of the **selected state** |
-| grid\[0\].bgStyle.emphasis.fill | String | √ | rgba\(0,0,0,0\) |  | The background color of the **selected state** |
+| grid\[0\].top | Number | √ | 10 |  | Abscissa of the upper left corner in drawing grid, in px |
+| grid\[0\].right | Number | √ | 50 |  | Ordinate of the upper left corner in drawing grid, in px |
+| grid\[0\].bottom | Number | √ | 20 |  | Ordinate of bottom right corner in drawing grid, in px |
+| grid\[0\].left | Number | √ | 50 |  | Abscissa of bottom right corner in drawing grid, in px |
+| grid\[0\].bgStyle | Object | √ |  |  | Background style of Cartesian coordinate system |
+| grid\[0\].bgStyle.normal | Object | √ |  |  | Background style of **unselected state** |
+| grid\[0\].bgStyle.normal.fill | String | √ | rgba\(0,0,0,0\) |  | Background color of **unselected state** |
+| grid\[0\].bgStyle.emphasis | Object | √ |  |  | Background color of **selected state** |
+| grid\[0\].bgStyle.emphasis.fill | String | √ | rgba\(0,0,0,0\) |  | Background color of **selected state** |
 
 * ### tooltip
 
