@@ -295,17 +295,17 @@ yAxis的配置与xAxis的配置相同
 
 | 配置项 | 类型 | 必填 | 默认值 | 可选参数 | 功能/备注 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| series\[0\].name | String | √ |  |  | Name of the data which can not be repeated |
-| series\[0\].type | String | √ | tickbar |  | Chart type base on the data,E.g: tickbar means bar chart |
-| series\[0\].coordinateSystem | String | √ | cartesian2d |  | Type of the coordinate system |
+| series\[0\].name | String | √ |  |  | Name of data which can not be repeated |
+| series\[0\].type | String | √ | tickbar |  | Chart type base on data,E.g: tickbar means bar chart |
+| series\[0\].coordinateSystem | String | √ | cartesian2d |  | Type of coordinate system |
 | series\[0\].data | Array\(Number\) | √ |  |  | Data values |
-| series\[0\].clipPath | Object | √ |  |  | Minimum unit of the bar chart |
-| series\[0\].clipPath.symbol | String | √ | rect | circle、person、rect | Type of the bar chart unit |
-| series\[0\].clipPath.symbolGap | Number | √ | 0.1 |  | Gaps between units |
-| series\[0\].clipPath.symbolNumber | Number | √ | 15 |  | Number of the units |
-| series\[0\].clipPath.showBack | Boolean | √ | true |  | Whether or not to show the units which has no value |
-| series\[0\].symbolStyle | Object | √ |  |  | Style of the units |
-| series\[0\].symbolStyle.normal | Object | √ |  |  | Style of the units which are unselected |
+| series\[0\].clipPath | Object | √ |  |  | Minimum unit of bar chart |
+| series\[0\].clipPath.symbol | String | √ | rect | circle、person、rect | Type of bar chart |
+| series\[0\].clipPath.symbolGap | Number | √ | 0.1 |  | Gaps between symbols  |
+| series\[0\].clipPath.symbolNumber | Number | √ | 15 |  | Number of symbols |
+| series\[0\].clipPath.showBack | Boolean | √ | true |  | Whether or not to show the one with no value |
+| series\[0\].symbolStyle | Object | √ |  |  | Style of symbol |
+| series\[0\].symbolStyle.normal | Object | √ |  |  | Style of unselected symbols |
 | series\[0\].symbolStyle.normal.fill | String | √ |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
