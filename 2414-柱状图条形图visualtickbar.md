@@ -178,48 +178,48 @@
 | Configuration item | Type | Required | Default | Optional parameter | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | xAxis\[0\].type | String | √ | linear | category、linear |  |
-| xAxis\[0\].inverse | Boolean | √ | false |  | Whether or not to reverse the chart in the horizontal direction |
+| xAxis\[0\].inverse | Boolean | √ | false |  | Whether or not to reverse the chart in horizontal direction |
 | xAxis\[0\].axisLine | Object | √ |  |  | Horizontal axis |
-| xAxis\[0\].axisLine.show | Boolean | √ | false |  | Whether or not to show the horizontal axis |
-| xAxis\[0\].axisLine.lineStyle | Object | √ |  |  | Style of the horizontal axis |
-| xAxis\[0\].axisLine.lineStyle.stroke | String | √ |  |  | Color of the horizontal axis |
-| xAxis\[0\].axisLine.lineStyle.stroke-width | String | √ | 2 |  | Width of the horizontal axis |
-| xAxis\[0\].axisLabel | Object | √ |  |  | Text label of the horizontal axis |
-| xAxis\[0\].axisLabel.show | Boolean | √ | false |  | Whether or not to show the text label of the horizontal axis |
-| xAxis\[0\].axisLabel.interval | String \| Number | √ | auto |  | Gap of the text labels. 'auto' means automatically hide the overflow ones; '0' means show all |
+| xAxis\[0\].axisLine.show | Boolean | √ | false |  | Whether or not to show horizontal axis |
+| xAxis\[0\].axisLine.lineStyle | Object | √ |  |  | Style of horizontal axis |
+| xAxis\[0\].axisLine.lineStyle.stroke | String | √ |  |  | Color of horizontal axis |
+| xAxis\[0\].axisLine.lineStyle.stroke-width | String | √ | 2 |  | Width of horizontal axis |
+| xAxis\[0\].axisLabel | Object | √ |  |  | Text label of horizontal axis |
+| xAxis\[0\].axisLabel.show | Boolean | √ | false |  | Whether or not to show text label of horizontal axis |
+| xAxis\[0\].axisLabel.interval | String \| Number | √ | auto |  | Gap between text labels. 'auto' means to automatically hide overflow ones; '0' means to show all |
 | xAxis\[0\].axisLabel.inside | Boolean | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.rotate | Number | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.margin | Number | -- | -- | -- | -- |
 | xAxis\[0\].axisLabel.formatter | String \| Function | -- | -- | -- | -- |
-| xAxis\[0\].axisLabel.textStyle | Object | √ |  |  | Text style of the text label |
-| xAxis\[0\].axisLabel.textStyle.font-size | Number | √ | 12 |  | Fontsize of the text label |
-| xAxis\[0\].axisLabel.textStyle.font-style | String | √ | normal |  | FontStyle of the text label |
-| xAxis\[0\].axisLabel.textStyle.font-weight | String | √ | normal |  | FontWeight of the text label |
-| xAxis\[0\].axisLabel.textStyle.font-family | String | √ | sans-serif |  | FontFamily of the text label |
-| xAxis\[0\].axisLabel.textStyle.fill | String | √ | \#fff |  | Text color of the text label |
-| xAxis\[0\].axisTick | Object | √ |  |  | Scale line of the horizontal axis |
-| xAxis\[0\].axisTick.show | Boolean | √ | false |  | Whether or not to show the scale line |
-| xAxis\[0\].axisTick.symbol | String | √ | line |  | Symbol of the scale line |
-| xAxis\[0\].axisTick.inside | Boolean | √ | false |  | Whether the scale line is inside of the horizontal axis or not |
-| xAxis\[0\].axisTick.length | Number | √ | 10 |  | Height of the scale line |
-| xAxis\[0\].axisTick.symbolStyle | Object | √ |  |  | Style of the scale line symbol |
-| xAxis\[0\].axisTick.symbolStyle.stroke | String | √ | \#fff |  | Color of the scale line symbol |
-| xAxis\[0\].axisTick.symbolStyle.stroke-width | Number | √ | 1 |  | Width of the scale line symbol |
-| xAxis\[0\].splitLine | Object | √ |  |  | Split line of the horizontal axis |
-| xAxis\[0\].splitLine.show | Boolean | √ | true |  | Whether or not to show the split line |
-| xAxis\[0\].splitLine.lineStyle | Object | √ |  |  | Style of the split line |
-| xAxis\[0\].splitLine.lineStyle.stroke | String | √ | \#0f0 |  | Color of the split line |
-| xAxis\[0\].splitLine.lineStyle.stroke-width | Number | √ | 1 |  | Width of the split line |
-| xAxis\[0\].splitLine.lineStyle.stroke-dasharray | Array\(Number\) | √ | \[1 0\] | SVG stroke-dasharray parameter supported | Type of the split line |
-| xAxis\[0\].position | String | √ | bottom | bottom、left、right、top | Position of the horizontal axis |
-| xAxis\[0\].min | Number | √ | 0 |  | Minimum value of the horizontal axis |
-| xAxis\[0\].max | Number | √ | 1500 |  | Maximum value of the horizontal axis |
-| xAxis\[0\].name | String | -- | -- | -- | Name of the horizontal axis |
-| xAxis\[0\].nameLocation | String | -- | -- | center、end、start | Position of the horizontal axis name |
-| xAxis\[0\].nameGap | Number | -- | -- | -- | Gap between the name and the horizontal axis |
-| xAxis\[0\].data | Array\(String\) |  |  |  | Discrete values of the horizontal value |
+| xAxis\[0\].axisLabel.textStyle | Object | √ |  |  | Text style of text label |
+| xAxis\[0\].axisLabel.textStyle.font-size | Number | √ | 12 |  | Fontsize of text label |
+| xAxis\[0\].axisLabel.textStyle.font-style | String | √ | normal |  | FontStyle of text label |
+| xAxis\[0\].axisLabel.textStyle.font-weight | String | √ | normal |  | FontWeight of text label |
+| xAxis\[0\].axisLabel.textStyle.font-family | String | √ | sans-serif |  | FontFamily of text label |
+| xAxis\[0\].axisLabel.textStyle.fill | String | √ | \#fff |  | Text color of text label |
+| xAxis\[0\].axisTick | Object | √ |  |  | Scale line of horizontal axis |
+| xAxis\[0\].axisTick.show | Boolean | √ | false |  | Whether or not to show scale line |
+| xAxis\[0\].axisTick.symbol | String | √ | line |  | Symbol of scale line |
+| xAxis\[0\].axisTick.inside | Boolean | √ | false |  | Whether scale line is inside of horizontal axis or not |
+| xAxis\[0\].axisTick.length | Number | √ | 10 |  | Height of scale line |
+| xAxis\[0\].axisTick.symbolStyle | Object | √ |  |  | Style of scale line symbol |
+| xAxis\[0\].axisTick.symbolStyle.stroke | String | √ | \#fff |  | Color of scale line symbol |
+| xAxis\[0\].axisTick.symbolStyle.stroke-width | Number | √ | 1 |  | Width of scale line symbol |
+| xAxis\[0\].splitLine | Object | √ |  |  | Split line of horizontal axis |
+| xAxis\[0\].splitLine.show | Boolean | √ | true |  | Whether or not to show split line |
+| xAxis\[0\].splitLine.lineStyle | Object | √ |  |  | Style of split line |
+| xAxis\[0\].splitLine.lineStyle.stroke | String | √ | \#0f0 |  | Color of split line |
+| xAxis\[0\].splitLine.lineStyle.stroke-width | Number | √ | 1 |  | Width of split line |
+| xAxis\[0\].splitLine.lineStyle.stroke-dasharray | Array\(Number\) | √ | \[1 0\] | SVG stroke-dasharray parameter supported | Type of split line |
+| xAxis\[0\].position | String | √ | bottom | bottom、left、right、top | Position of horizontal axis |
+| xAxis\[0\].min | Number | √ | 0 |  | Minimum value of horizontal axis |
+| xAxis\[0\].max | Number | √ | 1500 |  | Maximum value of horizontal axis |
+| xAxis\[0\].name | String | -- | -- | -- | Name of horizontal axis |
+| xAxis\[0\].nameLocation | String | -- | -- | center、end、start | Position of horizontal axis name |
+| xAxis\[0\].nameGap | Number | -- | -- | -- | Gap between name and horizontal axis |
+| xAxis\[0\].data | Array\(String\) |  |  |  | Discrete values of horizontal value |
 | xAxis\[0\].boundaryGap | Number | -- | -- | -- | Gaps of both ends blank |
-| xAxis\[0\].splitNumber | Number | √ | 5 |  | Number of the horizontal divided |
+| xAxis\[0\].splitNumber | Number | √ | 5 |  | Number of horizontal dividing lines |
 | xAxis\[0\].splitTicks | Array | -- | -- | -- | -- |
 | xAxis\[0\].splitArea | Object | -- | -- | -- | -- |
 | xAxis\[0\].splitArea.show | Boolean | -- | -- | -- |  |
