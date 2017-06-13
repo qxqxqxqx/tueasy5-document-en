@@ -22,10 +22,10 @@
 | Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | color | Array\(String\) | √ |  |  | The default color configuration list for the data item,the array element is color of the hexadecimal representation |
-| [grid](#grid) | Array\(Object\) | √ |  |  | Drawing grid within a Cartesian coortnate system |
+| [grid](#grid) | Array\(Object\) | √ |  |  | Drawing grid within a coordinates system |
 | [tooltip](#tooltip) | Object | √ |  |  | Message box with interactive information when the mouse is suspending |
-| [xAxis](#xaxis) | Array\(Object\) | √ |  |  | The horizontal axis array of Cartesian coordinate system |
-| yAxis | Array\(Object\) | √ |  |  | The vertical axis array of Cartesian coordinate system |
+| [xAxis](#xaxis) | Array\(Object\) | √ |  |  | The horizontal axis array of coordinates system |
+| yAxis | Array\(Object\) | √ |  |  | The vertical axis array of a coordinates system |
 | series | Array\(Object\) | √ |  |  | Detail configuration of this chart |
 
 * ### grid
@@ -59,7 +59,7 @@
 | grid\[0\].right | Number | √ | 50 |  | Ordinate of the upper left corner in drawing grid, in px |
 | grid\[0\].bottom | Number | √ | 20 |  | Ordinate of bottom right corner in drawing grid, in px |
 | grid\[0\].left | Number | √ | 50 |  | Abscissa of bottom right corner in drawing grid, in px |
-| grid\[0\].bgStyle | Object | √ |  |  | Background style of Cartesian coordinate system |
+| grid\[0\].bgStyle | Object | √ |  |  | Background style of a coordinates system |
 | grid\[0\].bgStyle.normal | Object | √ |  |  | Background style of **unselected state** |
 | grid\[0\].bgStyle.normal.fill | String | √ | rgba\(0,0,0,0\) |  | Background color of **unselected state** |
 | grid\[0\].bgStyle.emphasis | Object | √ |  |  | Background color of **selected state** |
