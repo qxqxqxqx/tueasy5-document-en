@@ -21,7 +21,7 @@
 
 | Configuration item | Type | Required | Default | Optional parameters | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| color | Array\(String\) | √ |  |  | The default color configuration list for the data item,the array element is a hexadecimal representation of the color |
+| color | Array\(String\) | √ |  |  | The default color configuration list for the data item,the array element is color of the hexadecimal representation |
 | [grid](#grid) | Array\(Object\) | √ |  |  | Drawing grid within a Cartesian coortnate system |
 | [tooltip](#tooltip) | Object | √ |  |  | Message box with interactive information when the mouse is suspending |
 | [xAxis](#xaxis) | Array\(Object\) | √ |  |  | The horizontal axis array of Cartesian coordinate system |
